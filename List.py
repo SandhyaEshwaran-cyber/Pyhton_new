@@ -1,0 +1,10 @@
+# a=list(input("Enter your list :"))
+a=[1,2,"sandhya",7,9]
+print(a)
+a.append(5)
+print(a)
+b=int(input("Enter: "))
+a.insert(0,b)
+print(a)
+a.pop()
+print(a)
